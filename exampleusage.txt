@@ -1,0 +1,5 @@
+python web_spider.py "https://example.com" ".continue-button" --query_selectors name 'li.product-list--list-item span.xZAYu' price "#selector2" --print_info
+python web_spider.py "https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/all" ".continue-button" --query_selectors name "#selector1" price "#selector2" --print_info
+
+No Pages: https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/fresh-beef-and-lamb
+Pages	: https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/all
