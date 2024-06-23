@@ -1,5 +1,3 @@
-python web_spider.py "https://example.com" ".continue-button" --query_selectors name 'li.product-list--list-item span.xZAYu' price "#selector2" --print_info
-python web_spider.py "https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/all" ".continue-button" --query_selectors name "#selector1" price "#selector2" --print_info
+  python web_spider.py url continue_element(query-selector) --query_selectors property_name query selector property_name query selector --print_info(Prints info collected)
 
-No Pages: https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/fresh-beef-and-lamb
-Pages	: https://www.tesco.com/groceries/en-GB/shop/fresh-food/christmas-meat-poultry-and-fish/all
+
